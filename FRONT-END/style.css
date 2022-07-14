@@ -1,0 +1,553 @@
+hr {
+  color: #c9c8c8;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.btn-checkbox {
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  padding: 11px 12px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5764;
+  margin: 3px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-check-custom:checked + .btn-checkbox {
+  transition: 0.2s;
+  color: #3574ee;
+  border-color: #3574ee;
+  background: rgba(53, 116, 238, 0.1);
+}
+.btn-primary {
+  background: #3574ee;
+  border-radius: 8px;
+}
+.box-radius-20 {
+  border-radius: 20px;
+}
+.box-radius-10 {
+  border-radius: 10px;
+}
+.sidebar {
+  width: 248px;
+}
+.bg-prof-sidebar {
+  width: 100%;
+  height: 157px;
+  background: #3574ee;
+  border-radius: 0px 0px 10px 10px;
+}
+.font-logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  color: #ffffff;
+}
+.circle-shadow {
+  width: 132px;
+  height: 132px;
+  left: 60px;
+  top: 95px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 0px 20px -6px rgba(0, 26, 65, 0.27);
+}
+.profile {
+  width: 123px;
+  height: 123px;
+  border-radius: 50%;
+  background-image: url(/assets/thomeas.png);
+  background-size: cover;
+  background-position: center;
+}
+p.nama-sidebar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: #4e5564;
+}
+p.role-sidebar {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  color: #9e9e9e;
+}
+.sidebar-menu {
+  margin-top: 142px;
+}
+
+.sidebar-menu .nav-link {
+  padding: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5564;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+.sidebar-menu .nav-link:hover {
+  background-color: hsla(220, 84%, 57%, 0.1);
+}
+.sidebar-menu .nav-link.active {
+  position: relative;
+  background: #3574ee;
+  box-shadow: 2px 4px 44px -4px rgba(0, 26, 65, 0.17);
+  color: white;
+}
+.sidebar-menu .nav-link.active::before {
+  left: -16px;
+  position: absolute;
+  display: block;
+  content: "";
+  width: 6px;
+  height: 25px;
+  background: #3574ee;
+  border-radius: 0px 6px 6px 0px;
+}
+.sidebar-menu .pref {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #4e5564;
+}
+
+/* content */
+.content {
+  width: 100%;
+  background-color: #f3f5fa;
+}
+.content header.container-fluid {
+  height: 70px;
+  padding-top: 0;
+}
+.content h1.title-page {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
+  color: #4e5764;
+}
+.content header .input-group-text,
+.content header .form-control {
+  background-color: transparent !important;
+  border: none !important;
+}
+.content header .input-group-text {
+  color: #4e5564;
+}
+.content header .form-control {
+  padding: 15px 0px;
+}
+.content header .form-control:focus {
+  box-shadow: none;
+}
+.content header .input-group {
+  width: 465px;
+  padding: 0px 20px;
+  background: #f1f3f9;
+  border-radius: 35px;
+}
+/* .input-group:focus-within {
+  box-shadow: 6px 6px 60px -9px rgba(49, 53, 59, 0.12);
+} */
+.notif {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+.jam {
+  width: 113px;
+  height: 51px;
+}
+.tanggal {
+  width: 160px;
+  height: 51px;
+}
+.jam,
+.tanggal {
+  border-radius: 30px;
+}
+.notif,
+.jam,
+.tanggal {
+  background: #f3f5fa;
+  color: #4e5564;
+  box-shadow: 6px 6px 60px -9px rgba(49, 53, 59, 0.12);
+}
+.content .box-header {
+  width: 883px;
+}
+.content .jam .text,
+.content .tanggal .text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
+  color: #4e5564;
+}
+.content h1.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  color: #4e5764;
+}
+.content .container-fluid {
+  padding-top: calc(var(--bs-gutter-x) * 0.5);
+}
+.content .table .header-table {
+  background: rgba(0, 26, 65, 0.63);
+}
+.content .table .data-table .prof-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-image: url(/assets/thomeas.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.content .table .data-table {
+  color: #4e5764;
+}
+.content .table .data-table span.nama {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+}
+.content .table .data-table .nama-dokumen {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #4e5764;
+}
+.content .table .data-table .btn {
+  padding: 10px 14px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+.content .modal-custom.active {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(20, 34, 54, 0.18);
+  transition: 0.4s;
+}
+.content .modal-custom.off {
+  display: none;
+  transition: 0.4s;
+}
+.content .modal-custom .modal-content .header-modal {
+  padding: 20px;
+}
+.content .modal-custom .modal-content .header-modal h1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4e5764;
+  margin: 0;
+}
+.content .modal-custom .modal-content {
+  height: auto;
+  background: white;
+  margin: auto;
+  border-radius: 20px;
+}
+.content .modal-custom.modal-custom-tinjau .modal-content {
+  width: 910px;
+}
+.content .modal-custom.modal-custom-upload .modal-content {
+  width: 860px;
+}
+.close-modal {
+  width: 100%;
+  height: 100%;
+}
+.content .modal-custom-tinjau .modal-content .box-modal-content {
+  padding: 20px;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .modal-prof-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-image: url(/assets/thomeas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .text-modal-prof
+  h1,
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .deskripsi-kebutuhan
+  h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  color: #4e5764;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .text-modal-prof
+  p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #888c96;
+  margin: 0;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .modal-pengaju
+  p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #4e5764;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  form
+  .form-label,
+.content
+  .modal-custom-upload
+  .modal-content
+  .box-modal-content
+  form
+  .form-label {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5764;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  form
+  .form-control,
+.content
+  .modal-custom-upload
+  .modal-content
+  .box-modal-content
+  form
+  .form-control {
+  padding: 14px 16px !important;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  form
+  .my-btn-primary {
+  padding: 10px 34px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  form
+  .my-btn-danger {
+  background: #fdebeb;
+  border-color: #fdebeb;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 10px 34px;
+  color: #ed0226;
+}
+.content .modal-custom-tinjau .modal-content .box-modal-content .komentar {
+  height: 100%;
+  background: #f3f5fa;
+}
+.content .modal-custom-tinjau .modal-content .box-modal-content .komentar h1 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e5764;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .komentar
+  .body {
+  height: 346px;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .komentar
+  input {
+  box-shadow: 4px 4px 60px -9px rgba(0, 26, 65, 0.23);
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .komentar
+  button {
+  color: #3574ee;
+  font-size: 24px;
+}
+
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .komentar
+  .person
+  .profile,
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .komentar
+  .my-self
+  .profile {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-image: url(/assets/thomeas.png);
+  background-size: cover;
+  background-position: center;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .komentar
+  .person
+  .detail
+  h1 {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #4e5764;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .input-group
+  > .form-control.fileTinjau {
+  flex: 0 !important;
+  width: 100% !important;
+  z-index: 3;
+  opacity: 0;
+}
+.content
+  .modal-custom-tinjau
+  .modal-content
+  .box-modal-content
+  .rounded-end.roundTinjau {
+  border-top-right-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+}
+
+/* status pds */
+.content .status-pds button {
+  padding: 12px 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.dragdrop {
+  font-weight: 500 !important;
+  color: #4e5764;
+}
+/* .drop-container {
+  padding: 1.5rem;
+  width: 100%;
+  display: inline-block;
+  border-radius: 10px;
+}
+.drop {
+  border-radius: 10px;
+  border: 3px dashed #aaa;
+  display: grid;
+  width: 100%;
+  place-content: center;
+  padding: 2rem;
+  box-sizing: border-box;
+  place-items: center;
+}
+.active {
+  background: #edccff;
+}
+.drop .icon {
+  font-weight: 500;
+  color: #a916f9;
+}
+.drop .text {
+  text-align: center;
+  font-weight: 500;
+  color: #443f46;
+  margin-top: 1rem;
+}
+.my-progress {
+  background-color: #a916f9;
+  width: 0%;
+  height: 20px;
+  display: none;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+.drop label {
+  background: #a916f9;
+  padding: 0.7rem 1.8rem;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+.file-input {
+  display: none;
+} */
