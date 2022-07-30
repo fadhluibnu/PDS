@@ -8,6 +8,9 @@ body {
 .bg-success {
   background: #35ee5d !important;
 }
+.my-bg-dark {
+  background: rgba(0, 26, 65, 0.63);
+}
 .text-color {
   color: #4e5564;
 }
@@ -27,6 +30,13 @@ body {
   line-height: 18px;
   color: #ed0226;
   background: rgba(237, 2, 38, 0.1);
+}
+.bg-success-status {
+  background: rgba(53, 238, 71, 0.1);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #35ee5e;
 }
 .btn-checkbox {
   background: #ffffff;
@@ -172,7 +182,10 @@ body {
   width: 860px;
 }
 .content .modal-custom.modal-custom-detail .modal-content {
-  width: 1000px;
+  width: 700px;
+}
+.content .modal-custom.modal-custom-perbaiki .modal-content {
+  width: 600px;
 }
 .close-modal {
   width: 100%;
